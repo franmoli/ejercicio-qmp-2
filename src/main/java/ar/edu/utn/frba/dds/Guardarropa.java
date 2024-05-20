@@ -5,16 +5,8 @@ import java.util.List;
 
 
 public class Guardarropa {
-  public Prenda borrador;
   public List<Prenda> prendas = new ArrayList<Prenda>();
 
-  public Prenda getBorrador() {
-    return this.borrador;
-  }
-
-  public void setBorrador(Prenda borrador) {
-    this.borrador = borrador;
-  }
 
   public void agregarPrenda(Prenda prenda) {
     if (this.prendaValida(prenda)) {
